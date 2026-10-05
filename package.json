@@ -1,0 +1,13 @@
+{
+  "name": "postojna-ljubljana-trains",
+  "version": "1.3.0",
+  "private": true,
+  "description": "Mobile-first PWA for Postojna \u2194 Ljubljana trains using official Slovenske \u017eeleznice timetable and delay information.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
