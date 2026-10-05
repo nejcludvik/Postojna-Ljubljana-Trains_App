@@ -1,0 +1,18 @@
+{
+  "name": "postojna-ljubljana-trains",
+  "version": "1.5.0",
+  "private": true,
+  "description": "Mobile-first PWA for Postojna ↔ Ljubljana trains using DUJPP GTFS schedules and IJPP GTFS-Realtime updates.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "gtfs-realtime-bindings": "^1.1.1",
+    "unzipper": "^0.12.3"
+  }
+}
